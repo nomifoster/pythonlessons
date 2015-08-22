@@ -7,5 +7,5 @@ genre = ['Romance/Comedy','Fantasy/Action','Fantasy/Drama','Fantasy/Drama','Comi
 n = 0
 
 for movie in movie_titles:
-	print movie_titles[n] + ", " + parental_rating[n] + "," + imdb_rating[n] + ", " + bechdel_rating[n] + ", " + genre[n]
+	print movie_titles[n] + ", " + parental_rating[n] + ", " + imdb_rating[n] + ", " + bechdel_rating[n] + ", " + genre[n]
 	n = n + 1
